@@ -1,0 +1,306 @@
+.cajatexth1 {
+    width: 300px;
+    height: 80px;
+    padding: 1px 5px 1px 15px;
+    margin: auto; 
+    margin-top: 100px;
+    border-left: #f50689 4px solid;
+    background: #2a2b2e;
+    border-radius: 7px;
+    text-align: justify; /* Justifica el texto */
+    overflow-wrap: break-word; /* Asegura que las palabras largas se ajusten correctamente */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#h1 {
+    color: white;
+    font-size: 17px;
+    text-align: left;
+    text-shadow: 0 0 2px black;
+    text-wrap: wrap;
+    white-space: prewrap;
+    display: flex;
+}
+
+.formbox {
+    width: 270px;
+    height: 400px;
+    background-color: #2a2b2e;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #f50689;
+}
+
+/*INPUT DE NOMBRE*/
+
+#labelnombre {
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin-left: 10px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    align-content: center;
+}
+
+#textnombre {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#inputnombre {
+    width: 100px;
+    height: 30px;
+    margin-top: 30px; 
+    margin-left: 40px;
+}
+
+#inputn {
+    outline-offset: 0px;
+    outline-color: transparent;
+    outline-width: 0px;
+    outline-style: solid;
+    background-color: #2a2b2e;
+    border: #f50689 solid 1px;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 7px #f50689;
+    transition-property: background-color, border, box-shadow, color;
+    transition-duration: 1s; 
+}
+
+#inputn:hover {
+    background-color: white;
+    border: white solid 1px;
+    color: black;
+    box-shadow: 0 0 8px white;
+    transition-property: background-color, border, color, box-shadow ;
+}
+
+/*INPUT DE APELLIDO*/
+
+#labelapellido {
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin-left: 10px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+    align-content: center;
+}
+
+#textapellido {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#inputapellido {
+    width: 100px;
+    height: 30px;
+    margin-top: 20px; 
+    margin-left: 40px;
+}
+#inputa {
+    outline-offset: 0px;
+    outline-color: transparent;
+    outline-width: 0px;
+    outline-style: solid;
+    background-color: #2a2b2e;
+    border: #f50689 solid 1px;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 7px #f50689;
+    transition-property: background-color, border, box-shadow, color;
+    transition-duration: 1s; 
+}
+
+#inputa:hover {
+    background-color: white;
+    border: white solid 1px;
+    color: black;
+    box-shadow: 0 0 8px white;
+    transition-property: background-color, border, color, box-shadow ;
+}
+
+/*INPUT DE NUMERO DE TELEFONO*/
+
+#labelnumero {
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin-left: 10px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+    align-content: center;
+}
+
+#textnumero {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#inputnumero {
+    width: 100px;
+    height: 30px;
+    margin-top: 20px; 
+    margin-left: 40px;
+}
+
+#inputnu {
+    outline-offset: 0px;
+    outline-color: transparent;
+    outline-width: 0px;
+    outline-style: solid;
+    background-color: #2a2b2e;
+    border: #f50689 solid 1px;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 7px #f50689;
+    transition-property: background-color, border, box-shadow, color;
+    transition-duration: 1s; 
+    
+}
+
+#inputnu:hover {
+    background-color: white;
+    border: white solid 1px;
+    color: black;
+    box-shadow: 0 0 8px white;
+    transition-property: background-color, border, color, box-shadow ;
+    transition-duration: 1s;
+}
+
+/* INPUT DE ENVIAR*/
+
+#enviar {
+    width: 100px;
+    height: 30px;
+    margin-top: 20px; 
+    margin-left: 100px;
+}
+
+#inputenviar {
+    padding: 5.5px 13px 5.5px 13px;
+    border-radius: 20px;
+    border: #f50689 1px solid;
+    background-color: #2a2b2e;
+    color: white;
+    box-shadow: 0 0 8px #f50689;
+    font-weight: bold;
+    transition-property: background-color, border, color, box-shadow ;
+    transition-duration: 1s;
+}
+
+#inputenviar:hover {
+    background-color: #f50689;
+    border: #f50689 solid 1px;
+    color: #2a2b2e;
+    box-shadow: 0 0 8px #f50689;
+    transition-property: background-color, border, color, box-shadow ;
+    transition-duration: 1s;
+}
+
+#labelubicacion {
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin-left: 10px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+    align-content: center;
+}
+
+#textubicacion {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#selectbox {
+    width: 100px;
+    height: 30px;
+    margin-top: 20px; 
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+
+#select1 {
+    width: 160px;
+    outline-offset: 0px;
+    outline-color: transparent;
+    outline-width: 0px;
+    outline-style: solid;
+    background-color: #2a2b2e;
+    border: #f50689 solid 1px;
+    padding: 5px;
+    padding-right: 95px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 7px #f50689;
+    transition-property: background-color, border, box-shadow, color;
+    transition-duration: 1s; 
+}
+
+#select1:hover {
+    background-color: #f50689;
+    border: #f50689 solid 1px;
+    color: #2a2b2e;
+    box-shadow: 0 0 8px #f50689;
+    transition-property: background-color, border, color, box-shadow ;
+    transition-duration: 1s;
+}
+
+/*ALERTA AL NO LLENAR LOS DATOS DEL FORMULARIO*/
+
+.alert {
+    position: fixed;
+    max-width: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2a2b2e;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #f50689;
+    box-shadow: 0 0 10px #f50689;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1000;
+    display: none;
+}
+
+.alert button {
+    background-color: #2a2b2e;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #f50689;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-property: background-color, border, color, box-shadow ;
+    transition-duration: 1s;
+    box-shadow: 0 0 10px #f50689;
+}
+
+
+.alert button:hover {
+    background-color: #f50689;
+    color: #2a2b2e;
+    box-shadow: 0 0 10px #f50689;
+    transition-property: 
+    background-color, border, color, box-shadow ;
+    transition-duration: 1s;
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pedido</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form1.css">
+</head>
+<body>
+    <div class="cajatexth1">
+        <h1 id="h1">
+            Indique su nombre, apellido, número de teléfono
+            y ubicación antes de realizar el pedido.
+        </h1>
+    </div>    
+    <div class="formbox">
+        <!-- El formulario tiene un id="formulario1" y se quitará el action para manejarlo con JS -->
+        <form class="family" id="formulario1">
+            <div id="labelnombre">
+                <label id="textnombre" for="">Nombre</label>
+            </div>
+            <div id="inputnombre">
+                <input id="inputn" type="text" placeholder="Nombre" required>
+            </div>
+            <div id="labelapellido">
+                <label id="textapellido" for="">Apellido</label>
+            </div>
+            <div id="inputapellido">
+                <input id="inputa" type="text" placeholder="Apellido" required>
+            </div>
+            <div id="labelnumero">
+                <label id="textnumero" for="">Teléfono</label>
+            </div>
+            <div id="inputnumero">
+                <input id="inputnu" type="number" placeholder="Número de teléfono" required> 
+            </div>
+            <div id="labelubicacion">    
+                <label id="textubicacion" for="">Ubicación</label>
+            </div>
+            <div id="selectbox">
+                <select id="select1" required>
+                    <option value="" disabled selected>Seleccione una ubicación</option>
+                    <option value="La Guaira">La Guaira</option>
+                    <option value="Caracas">Caracas</option>
+                </select>
+            </div>    
+            <!-- Ahora es un botón, y no se enviará el formulario tradicionalmente -->
+            <div id="enviar">
+                <button type="button" id="inputenviar">Enviar</button>
+            </div>
+        </form>
+    </div>
+    <div id="alert" class="alert" style="display: none;">
+        <p>Por favor, complete todos los campos obligatorios.</p>
+        <button id="closeAlert">Cerrar</button>
+    </div>
+    <script src="enviar.js"></script>
+</body>
+</html>

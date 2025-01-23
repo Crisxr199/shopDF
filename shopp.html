@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap" rel="stylesheet">
+    <title>Tienda - Dulces Festejos</title>
+</head>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<body>
+    <nav class="nav">
+        <div class="boxnav">
+            <!-- Logo -->
+            <img class="logodul" src="imaganes/IMG_6222.PNG" alt="Logo">
+
+            <!-- Menú de navegación -->
+            <button onclick="window.location.href='carrito.html'" id="CARRITO" class="ccarrito">
+                <i class="fas fa-shopping-cart" style="font-size: 20px;"></i> CARRITO(0)
+            </button>
+                
+            <!-- Ícono de hamburguesa -->
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+    
+            <div class="menu" id="menu">
+                <button id="tortasBtn" class="nav__item">TORTAS</button>
+                <button id="bebidasBtn" class="nav__item">BEBIDAS</button>
+                <button id="deliveryBtn" class="nav__item">DELIVERY</button>
+                <button onclick="window.location.href='contact.html'" class="nav__item">CONTACTO</button>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="BOX"></div>
+    <div class="cajamadre" id="tortas-section">
+        <div id="separacion">
+            Tortas
+        </div>
+        <!-- Aquí va el contenido de las tortas -->
+        <div id="tortasSection" class="cajasflex">
+            <div class="product-card">
+                <img src="imaganes/QUESILLO2Mesa de trabajo 1.png" alt="" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">Quesillo</h2>
+                    <p class="product-price">$15.00</p>
+                    <button data-imagen="torta1.png" data-id="1" data-nombre="Quesillo" data-precio="$15.00" class="addbutton">Agregar</button>
+                </div>
+            </div>    
+        </div>
+        <div class="cajasflex">
+            <div class="product-card">
+                <img src="imaganes/tresleches.png" alt="" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">
+                        Tres Leches
+                    </h2>
+                    <p class="product-price">$35.00</p>
+                    <button data-imagen="tresleches.png" data-id="2" data-nombre="Torta Tres Leches" data-precio="$35.00" class="addbutton">Agregar</button>
+                </div>
+            </div> 
+        </div>
+        <div class="cajasflex">
+            <div class="product-card">
+                <img src="imaganes/chocolateMesa de trabajo 1 copia 2@4x.png" alt="" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">
+                        Chocolate
+                    </h2>
+                    <p class="product-price">$25.00</p>
+                    <button data-imagen="choco.png" data-id="3" data-nombre="Torta de Chocolate" data-precio="$25.00" class="addbutton">Agregar</button>
+                </div>
+            </div> 
+        </div>
+        <div class="cajasflex">
+            <div class="product-card">
+                <img src="imaganes/FRESAMesa de trabajo 1 copia 3.png" alt="" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">
+                        Fresa
+                    </h2>
+                    <p class="product-price">$25.00</p>
+                    <button data-imagen="fresa.png" data-id="4" data-nombre="Torta de Fresa" data-precio="$25.00" class="addbutton">Agregar</button>
+                </div>
+            </div> 
+        </div>
+        <div class="cajasflex">
+            <div class="product-card">
+                <img src="imaganes/piñaMesa de trabajo 1 copia 4@4x.png" alt="" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">
+                        Piña
+                    </h2>
+                    <p class="product-price">$20.00</p>
+                    <button data-imagen="pina.png" data-id="5" data-nombre="Torta de Piña" data-precio="$20.00" class="addbutton">Agregar</button>
+                </div>
+            </div> 
+        </div>
+        <div class="cajasflex">
+            <div class="product-card">
+                <img src="imaganes/MarmoladaMesa de trabajo 1 copia 5.png" alt="" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">
+                        Marmolada
+                    </h2>
+                    <p class="product-price">$20.00</p>
+                    <button data-imagen="marmo.png" data-id="6" data-nombre="Torta Marmolada" data-precio="$20.00" class="addbutton">Agregar</button>
+                </div>
+            </div>
+        </div>
+        <div class="cajasflex">
+            <div class="product-card">
+                <img src="imaganes/PONQUEMesa de trabajo 1 copia 6.png" alt="" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">
+                        Ponque
+                    </h2>
+                    <p class="product-price">$20.00</p>
+                    <button data-imagen="ponque.png" data-id="7" data-nombre="Torta Ponque" data-precio="$20.00" class="addbutton">Agregar</button>
+                </div>
+            </div>
+        </div>
+        <div class="cajasflex">
+            <div class="product-card">
+                <img src="imaganes/PARCHITAMesa de trabajo 1 copia 7.png" alt="" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">
+                        Parchita
+                    </h2>
+                    <p class="product-price">$25.00</p>
+                    <button data-imagen="parchi.png" data-id="8" data-nombre="Torta de Parchita" data-precio="$25.00" class="addbutton">Agregar</button>
+                </div>
+            </div>
+        </div>
+        <div class="cajasflex">
+            <div class="product-card">
+                <img src="imaganes/GuanabanaMesa de trabajo 1 copia 8.png" alt="" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">
+                        Guanbana
+                    </h2>
+                    <p class="product-price">$25.00</p>
+                    <button data-imagen="guanaba.png" data-id="9" data-nombre="Torta de Guanbana" data-precio="$25.00" class="addbutton">Agregar</button>
+                </div>
+            </div>
+        </div>
+        <div class="cajasflex">
+            <div class="product-card">
+                <img src="imaganes/REBELDEMesa de trabajo 1 copia 9.png" alt="" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">
+                        Rebelde
+                    </h2>
+                    <p class="product-price">$35.00</p>
+                    <button data-imagen="rebel.png" data-id="10" data-nombre="Torta Rebelde" data-precio="$35.00" class="addbutton">Agregar</button>
+                </div>
+            </div>
+        </div>
+        <div class="cajasflex">
+            <div class="product-card">
+                <img src="imaganes/PAIDELIMONMesa de trabajo 1 copia 10.png" alt="" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">
+                        Pai de Limón
+                    </h2>
+                    <p class="product-price">$19.00</p>
+                    <button data-imagen="pailimon.PNG" data-id="11" data-nombre="Pai de Limon" data-precio="$19.00" class="addbutton">Agregar</button>
+                </div>
+            </div>
+        </div>
+        <div  id="separacion">
+            Personalizadas
+        </div>
+            <section class="carrusel">
+                <img src="carrusel/IMG_1341.PNG" alt="">
+                <img src="carrusel/IMG_1342.PNG" alt="">
+                <img src="carrusel/IMG_1343.PNG" alt="">
+                <img src="carrusel/IMG_1344.PNG" alt="">
+                <img src="carrusel/IMG_1345.PNG" alt="">
+            </section>
+            <section class="carrusel">
+                <img src="carrusel/IMG_1346.PNG" alt="">
+                <img src="carrusel/IMG_1347.PNG" alt="">
+                <img src="carrusel/IMG_1348.PNG" alt="">
+                <img src="carrusel/IMG_1349.PNG" alt="">
+                <img src="carrusel/IMG_1350.PNG" alt="">
+            </section>
+            <section class="carrusel">
+                <img src="carrusel/IMG_1351.PNG" alt="">
+                <img src="carrusel/IMG_1352.PNG" alt="">
+                <img src="carrusel/IMG_1353.PNG" alt="">
+                <img src="carrusel/IMG_1354.PNG" alt="">
+                <img src="carrusel/IMG_1355.PNG" alt="">
+            </section>
+            <section class="carrusel">
+                <img src="carrusel/IMG_1356.PNG" alt="">
+                <img src="carrusel/IMG_1357.PNG" alt="">
+                <img src="carrusel/IMG_1358.PNG" alt="">
+                <img src="carrusel/IMG_1359.PNG" alt="">
+                <img src="carrusel/IMG_1341.PNG" alt="">
+            </section>
+        <div  id="separacion">
+            Pasapalos Dulces 
+        </div>
+        <div class="cajasflex">
+            <div class="product-card">
+                <img src="imaganes/ALFAJORESMesa de trabajo 1 copia 11.png" alt="" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">
+                        Alfajores
+                    </h2>
+                    <p class="product-price"></p>
+                    <button data-imagen="alfa.png" data-id="12" data-nombre="Alfajores" data-precio="$15" class="addbutton">Agregar</button>
+                </div>
+            </div>
+        </div>
+        <div class="cajasflex">
+            <div class="product-card">
+                <img src="imaganes/DONASMesa de trabajo 1 copia 12.png" alt="" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">
+                        Donas
+                    </h2>
+                    <p class="product-price"></p>
+                    <button data-imagen="dona.png" data-id="13" data-nombre="Donas" data-precio="$15.00" class="addbutton">Agregar</button>
+                </div>
+            </div>
+        </div>
+        <div class="cajasflex">
+            <div class="product-card">
+                <img src="imaganes/BOMBASMesa de trabajo 1 copia 13.jpg" alt="" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">
+                        Bombas
+                    </h2>
+                    <p class="product-price"></p>
+                    <button data-imagen="bomba.jpg" data-id="14" data-nombre="Bombas dulces" data-precio="$15.00" class="addbutton">Agregar</button>
+                </div>
+            </div>
+        </div>
+        <div class="cajasflex">
+            <div class="product-card">
+                <img src="imaganes/PASTASECAMesa de trabajo 1 copia 14.png" alt="" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">
+                        Pasta Seca
+                    </h2>
+                    <p class="product-price">$35</p>
+                    <button data-imagen="pastaseca.png" data-id="15" data-nombre="Pasta Seca (Galletas)" data-precio="$35.00" class="addbutton">Agregar</button>
+                </div>
+            </div>
+        </div>
+        <div class="cajasflex">
+            <div class="product-card">
+                <img src="imaganes/SUSPIROSMesa de trabajo 1 copia 15.png" alt="" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">
+                        Suspiros
+                    </h2>
+                    <p class="product-price"></p>
+                    <button data-imagen="suspi.png" data-id="16" data-nombre="Suspiros" data-precio="$15.00" class="addbutton">Agregar</button>
+                </div>
+            </div>
+        </div>
+        <div class="cajasflex">
+            <div class="product-card">
+                <img src="imaganes/POLVOROSASMesa de trabajo 1 copia 16.png" alt="" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">
+                        Polvorosas
+                    </h2>
+                    <p class="product-price"></p>
+                    <button data-imagen="polvo.png" data-id="17" data-nombre="Polvorosas" data-precio="$15.00" class="addbutton">Agregar</button>
+                </div>
+            </div>
+        </div>
+        <div class="cajasflex">
+            <div class="product-card">
+                <img src="imaganes/PONQUESITOSMesa de trabajo 1 copia 17@4x.png" alt="" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">
+                        Ponquesitos
+                    </h2>
+                    <p class="product-price"></p>
+                    <button data-imagen="ponquesitos.png" data-id="18" data-nombre="Ponquesitos" data-precio="$15.00" class="addbutton">Agregar</button>
+                </div>
+            </div>
+        </div>
+        <div class="cajasflex">
+            <div class="product-card">
+                <img src="imaganes/TARTALETASMesa de trabajo 1 copia 18.png" alt="" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">
+                        Tartaletas
+                    </h2>
+                    <p class="product-price"></p>
+                    <button data-imagen="tartale.png" data-id="19" data-nombre="Tartaletas" data-precio="$15.00" class="addbutton">Agregar</button>
+                </div>
+            </div>
+        </div>
+        <div class="bebidas">
+            <p class="bebidastext">
+                Tus bebidas favoritas estan aquí.
+            </p>
+            <img  id="bebidasSection" class="bebidasimg" src="imaganes/FIESTA2Mesa de trabajo 14.jpg" alt="">
+        </div>
+    </div>
+    <div id="deliverySection" class="deliverybox">
+        <p class="deliverytext ">
+            Delivery Disponible
+        </p>
+        <p class="deliverytext2" >
+            Zonas disponibles:
+        </p>
+        <p class="deliverytext3">
+            Playa Grande
+        </p>
+        <p class="deliverytext4">
+            Catia La mar
+        </p>
+        <p class="deliverytext5">
+            Maiquetia
+        </p>
+        <p class="deliverytext6">
+            Y áreas centricas de Toda La Guaira.
+        </p>
+    </div>
+    <div class="copy">
+        <p id="ccopy">Todos los derechos reservados Dulces Festejos © 2025 . Creado por Cris</p>
+    </div>
+    <script src="shop1.js"></script>
+</body>
+</html>

@@ -1,0 +1,314 @@
+
+/*DIV DE QUIEN SOY*/
+
+.quiensoy {
+    width: 200px;
+    height: 50px;
+    background-color: #f50689;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 130px;
+    box-shadow: 0 0 10px #f50689;
+    border: none;
+    font-size: 13px;
+    transition-property: background-color;
+    transition-duration: 1s;
+    display: flex;
+}
+
+.quiensoy:hover {
+    background-color: #b80567;
+    box-shadow: 0 0 10px #b80567;
+    transition-property: box-shadow,background-color;
+    transition-duration: 1s;
+}
+
+#textquiensoy {
+    color: white; 
+    padding-top: 10px; padding-block-end: 10px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+    display: flex;
+}
+
+/*FIN DEL DIV*/
+
+/*CUERPO DE LA PAGINA*/
+
+body {
+    background: url(imaganes/encantadora-variedad-postres-pasteles-impresionantes-tartas-pasteles-artisticamente-exhibidos-regalo.png);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+/*FIN DEL CUERPO*/
+
+/*BOTON DE CLIENTE*/
+
+.soycliente {
+    width: 100px;
+    height: 50px;
+    background-color: #f50689;
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+    padding-left: 15px; padding-right: 15px;
+    margin: auto; margin-top: 70px;
+    box-shadow: 0 0 10px #f50689;
+    transition-property: background-color, box-shadow; 
+    transition-duration: 1s;
+    display: flex;
+}
+
+.family {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.soycliente:hover {
+    background-color: #b80567;
+    box-shadow: 0 0 10px #f50689;
+    transition-property: box-shadow,background-color;
+    transition-duration: 1s;
+}
+
+#soycliente {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin: auto;
+    display: flex;
+}
+
+/*FIN DEL BOTON DEL CLIENTE*/
+
+/*BOTON DE SOY ADMIN*/
+
+.soydueño {
+    width: 100px;
+    height: 50px;
+    background-color: #2a2b2e;
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+    padding-left: 15px; padding-right: 15px;
+    margin: auto; margin-top: 40px; margin-block-end: 20px;
+    box-shadow: 0 0 10px #2a2b2e;
+    transition-property: background-color, box-shadow;
+    transition-duration: 1s;
+    display: flex;
+}
+
+.soydueño:hover {
+    background-color: #f50689;
+    box-shadow: 0 0 10px #f50689;
+    transition-property: box-shadow,background-color;
+    transition-duration: 1s;
+}
+
+#soydueño {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin: auto;
+}
+
+/*BOTON DE SOY ADMIN FIN*/
+
+/*LOGO DE LA EMPRESA*/
+
+.imgdf {
+    margin: auto; margin-top: 30px;
+    width: 200px;
+    height: 120px;
+    margin-block-end: 30px;
+}
+
+#imgdf {
+    width: 200px; height: 120px;
+}
+
+/*LOGO DE LA EMPRESA FIN*/
+
+/*PIE DE PAG (EN ESPERA)*/
+
+.ppiedepag {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-block-end: 10px;
+}
+
+/*TEXTO DE WELCOME*/
+
+.welcome {
+    width: 250px;
+    height: 60px;
+    margin: auto;
+    border-bottom: #f50689 solid;
+    border-radius: 15px;
+    display: flex;
+}
+
+#welcome {
+    text-align: center;
+    font-size: 45px;
+    font-family: "Lobster", sans-serif;
+    color: white;
+    text-shadow: 0 0 13px #f50689;
+    margin: auto;
+    display: flex;
+}
+
+
+
+/* INPUT CON ANIMACIÓN DE ENFOQUE*/
+
+.outline1 {
+    width: 100px;
+    height: 100px;
+    margin: auto; margin-top: 20px;
+    
+}
+
+#outline {
+    outline-offset: 0px;
+    outline-color: transparent;
+    outline-width: 0px;
+    outline-style: solid;
+    background-color: #2a2b2e;
+    border: rgb(133, 125, 125) solid 1px;
+    padding: 3px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 8px #2a2b2e;
+    transition-property: background-color, border, box-shadow, color;
+    transition-duration: 1s; 
+}
+
+#outline:hover {
+    background-color: white;
+    border: #f50689 solid 1px;
+    color: black;
+    box-shadow: 0 0 8px #f50689;
+    transition-property: background-color, border, color, box-shadow ;
+}
+
+/*INPUT CON ANIMACIÓN DE ENFOQUE FIN*/
+
+/*ICONO Y ENLACE DE REDES*/
+
+#redes {
+    width: 260px;
+    height: 100px;
+    margin: auto;
+    border: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-block-end: 10px;
+}
+
+.whatsapp {
+    width: 90px;
+    height: 70px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #2a2b2e;
+    backdrop-filter: blur(10px);
+    display: column;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding-block-end: 12px;
+    padding-left: 15px;
+    padding-right: 1px;
+    padding-top: 10px;
+    transition-property: background-color, border, box-shadow;
+    transition-duration: 1s;
+}
+
+.whatsapp:hover {
+    background-color: #b80567;
+    box-shadow: 0 0 10px black;
+    transition-property: background-color, border, box-shadow ;
+    transition-duration: 1s;
+}
+
+#whatsapp {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    padding-left: 12px;
+}
+
+#whatsapptex {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ig {
+    width: 90px;
+    height: 70px;
+
+    border-radius: 20px;
+    box-shadow: 0 0 10px #2a2b2e;
+    backdrop-filter: blur(10px);
+    display: column;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding-block-end: 12px;
+    padding-left: 15px;
+    padding-right: 1px;
+    padding-top: 10px;
+    transition-property: background-color, border, box-shadow;
+    transition-duration: 1s;
+}
+
+.ig:hover {
+    background-color: #b80567;
+    box-shadow: 0 0 10px black;
+    transition-property: background-color, border, box-shadow ;
+    transition-duration: 1s;
+}
+
+#ig {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    padding-left: 12px;
+}
+
+#igtex {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: auto; 
+    
+}

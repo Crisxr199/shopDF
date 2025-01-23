@@ -1,0 +1,244 @@
+body {
+    background-color: #000000;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    padding: 30px;
+}
+
+.pedidocaja {
+    width: 200px;
+    height: 30px;
+    border-bottom: 1px solid #910452;
+    margin: auto;
+}
+
+.pedido {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.pedidoform {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.caja1 {
+    width: 200px;
+    height: 60px;
+    background-color: #b80567;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 #b80567;
+}
+
+.textcarrito {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+    
+.list1 {
+    list-style: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    border-bottom: 1px #b80567 solid;
+    width: 300px;
+}
+
+.total {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.borrarcaja {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.borrar {
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    color: white;
+    background-color: #e10909;
+    border: none;
+    padding: 10px;
+    padding-bottom: 22px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 12px;
+    box-shadow: 0 0 10px 0 #e10909;
+    transition-property: background-color,box-shadow;
+    transition-duration: 1s;
+}
+
+.borrar:hover {
+    background-color: #000000;
+    box-shadow: 0 0 5px 0 #5a5d5b;
+    transition-property: background-color,box-shadow;
+    transition-duration: 1s;
+}
+
+#volvercaja {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.volver {
+    width: 100px;
+    height: 20px;
+    color: white;
+    margin-top: 30px;
+    background-color: #b80567;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 12px;
+    box-shadow: 0 0 10px 0 #b80567;
+    transition-property: background-color,box-shadow;
+    transition-duration: 1s;
+    text-decoration: none;
+}
+
+
+.carrito-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.imagen-carrito {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.pagar {
+    color: white;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    margin: auto;
+    margin-top: 40px;
+    align-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+    border: #620036 1px solid;
+    transition-property: border;
+    transition-duration: 1s;
+}
+
+.pagar:hover {
+    border: #ff068f solid 1px;
+    background-color: black;
+    transition-property: border;
+    transition-duration: 1s;
+}
+
+/*METODOS DE PAGO*/
+/* Estilos del div con las formas de pago */
+.formas-pago {
+    width: 250px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 10px 0 white;
+}
+
+.h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.formas-pago h3 {
+    margin-bottom: 10px;
+}
+
+.formas-pago ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.formas-pago ul li {
+    padding: 8px;
+    background-color: #eee;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+/* Animación de aparición */
+.formas-pago {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.formas-pago.show {
+    opacity: 1;
+}
+
+.li1 {
+    word-wrap: break-word;
+}
+
+.confirmarbox {
+    text-align: center;
+}
+
+.confirmar {
+    width: 130px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgb(69, 123, 199);
+    color: white;
+    font-weight: bold;
+    align-content: center;
+    border: rgb(69, 123, 199) solid 1px ;
+    transition-property: background-color, border;
+    transition-duration: 2s;
+}
+
+.confirmar:hover {
+    background-color: #b80567;
+    border: #ff068f solid 1px;
+    transition-property: background-color, border;
+    transition-duration: 2s;
+}
+
+/*IMAGEN CONTROL DE TAMA;O*/
+

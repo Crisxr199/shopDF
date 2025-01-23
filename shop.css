@@ -1,0 +1,558 @@
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #19191a;
+
+}
+.logodul {
+    width: 100px;
+    height: 100px;
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.boxnav {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Esto separa el logo y la hamburguesa */
+    align-items: center; /* Alinea verticalmente el logo y la hamburguesa */
+}
+
+/* Estilos para el logo */
+.logodul {
+    width: 70px; /* Puedes ajustar el tamaño del logo según lo desees */
+    height: auto;
+    margin-right: 20px; /* Añadir espacio entre el logo y la hamburguesa */
+}
+
+/* Menú de navegación (pantallas grandes) */
+.nav { 
+    width: 100%;
+    background-color: #2a2b2e;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    margin-bottom: 0;
+    box-shadow: 0 0 25px black;
+    z-index: 20;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+/* Estilo de los botones de navegación */
+.nav__item {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    background-color: black;
+    border-radius: 20px;
+    border: #f50689 1px solid;
+    box-shadow: 0 0 10px #f50689;
+    font-weight: bold;
+    transition: background-color 1s, border 1s, box-shadow 1s, color 1s;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 14px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    letter-spacing: 0.1px;
+    z-index: 20;
+}
+
+.ccarrito {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    background-color: black;
+    border-radius: 20px;
+    border: #f50689 1px solid;
+    box-shadow: 0 0 10px #f50689;
+    font-weight: bold;
+    transition: background-color 1s, border 1s, box-shadow 1s, color 1s;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 14px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    letter-spacing: 0.1px;
+    z-index: 20;
+}
+
+
+.nav__item:hover {
+    background-color: #f50689;
+    color: black;
+    box-shadow: 0 0 25px #f50689;
+    transition: background-color 1s, border 1s, box-shadow 1s, color 1s;
+}
+
+/* Estilos para el ícono de hamburguesa */
+.hamburger {
+    display: none; /* Ocultar el ícono en pantallas grandes */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.hamburger .bar {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+
+/* Medios de pantalla: Para dispositivos móviles */
+@media (max-width: 768px) {
+    .menu {
+        display: none; /* Ocultar el menú en pantallas pequeñas */
+        flex-direction: column;
+        width: 100%;
+        background-color: #2a2b2e;
+        position: absolute;
+        top: 60px; /* Debajo del header */
+        left: 0;
+        padding: 20px;
+        z-index: 100;
+
+        opacity: 0; /* El menú está invisible inicialmente */
+        transform: translateY(-20px); /* El menú está ligeramente arriba */
+        transition: opacity 0.5s ease, transform 0.5s ease; /* Transiciones de aparición */
+    }
+
+    .menu.open {
+        display: flex; /* Cuando el menú se abre */
+        opacity: 1; /* El menú se vuelve visible */
+        transform: translateY(0); /* El menú se desplaza a su posición original */
+    }
+
+    .hamburger {
+        display: flex; /* Mostrar el ícono de hamburguesa */
+    }
+}
+
+/* Animación para el ícono de hamburguesa */
+.hamburger.open .bar:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.open .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.open .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/*----------------------------------------*/
+.BOX {
+    width: 100%;
+    height: 250px;
+    border: none;
+    display: flex;
+    flex-wrap: nowrap;
+    background-image: url('imaganes/banner.png'); ; /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+/*----------------------------------------*/
+
+/*FLEX BOX DEL MENU PRINCIPAL*/
+
+.cajamadre {
+    width: 100%;
+    height: 1000px;
+    border: none;
+    background-color: #2a2b2e;
+    margin-top: 0px;
+    overflow: hidden;
+    overflow: scroll;
+    text-align: center;
+    box-shadow: 0 0 4px black;
+    margin-bottom: 0px;
+}
+
+.cajasflex {
+    min-width:200.8px;
+    min-height: 206.8px;
+    flex-grow: 1;
+    border: none;
+    padding: 0px;
+    display: inline-block;
+    flex-wrap: wrap;
+    flex: 1;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    align-items: center;
+    background-color: #f50689;
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 2;
+    box-shadow:0 0 10px black ;
+}
+
+#separacion {
+    width: 250px;
+    height: 50px;
+    background-color: #0003;
+    box-shadow: 0 0 5px black;
+    border-bottom-right-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 50px; padding-top: 0px;
+    padding-right: 5px;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-self: center;
+}
+
+/*-------------------*/
+
+.product-card {
+    width: 201px;
+    border: none;
+    background-color: #f50689;
+    padding: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-bottom: none;
+    border-radius: 20px;
+}
+
+.product-info {
+    padding: 10px 0;
+}
+
+.product-title {
+    color: white;
+    font-size: 20px;
+    margin: 0px 0;
+    padding-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.product-price {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.addbutton {
+    background-color: #2a2b2e;
+    border: none;
+    color: white;
+    margin-left: 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 80%;
+    border-radius: 15px;
+    font-size: 16px;
+    transition-property: background-color, color, border-radius ;
+    transition-duration: 1s;
+    font-weight: bold;
+}
+
+.addbutton:hover {
+    background-color: black;
+    transition-property: background-color, color, border-radius ;
+    transition-duration: 1s;
+    border-radius: 25px ;
+    color: #f50689;
+}
+section {
+    display: flex;
+    width: 100%; /* El contenedor ocupará todo el ancho de la pantalla */
+    height: 350px;
+    margin-bottom: 100px;
+    overflow: hidden; /* Oculta las imágenes que salen del contenedor */
+    position: relative; /* Necesario para mover las imágenes con translateX */
+    z-index: 0;
+}
+
+section img {
+    width: 200px; /* Cada imagen tiene un ancho fijo de 200px */
+    height: 100%; /* Asegura que las imágenes tengan la altura del contenedor */
+    object-fit: cover; /* Mantiene la proporción y cubre el área sin distorsionar */
+    opacity: 0.7;
+    transition: opacity 1s ease; /* Transición suave en la opacidad */
+    border-radius: 20px;
+    margin-right: 20px; /* Añadimos margen entre las imágenes */
+    animation: carousel 20s linear infinite; /* Movimiento suave y continuo */
+}
+
+@keyframes carousel {
+    0% {
+        transform: translateX(0); /* Empieza en la posición inicial */
+    }
+    25% {
+        transform: translateX(-220px); /* Mueve la primera imagen fuera (con el margen incluido) */
+    }
+    50% {
+        transform: translateX(-440px); /* Mueve la segunda imagen fuera */
+    }
+    75% {
+        transform: translateX(-660px); /* Mueve la tercera imagen fuera */
+    }
+    100% {
+        transform: translateX(0); /* Vuelve a la posición inicial */
+    }
+}
+
+section {
+    display: flex;
+    width: 100%; /* El contenedor ocupa todo el ancho de la pantalla */
+}
+
+section img {
+    width: 200px; /* Cada imagen tiene un ancho fijo de 200px */
+    margin-right: 20px; /* Espacio de 20px entre cada imagen */
+}
+
+
+@media screen and (max-width:500px) {
+    section {
+        min-width: auto;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        z-index: 10;
+        margin-bottom: 50px;
+    }
+}
+
+
+/*MEDIAQ PARA RESOLUCIÓN MENOR A 500PX*/
+
+@media screen and (max-width:500px) {
+    .nav {
+        z-index: 30;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .cajasflex {
+        min-width: 150px;
+        min-height: 206.8px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .product-card {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .BOX {
+        background-size: contain;
+        height: 80px;
+    }
+}
+
+/*MEDIAQ PARA RESOLUCIÓN MENOR A 400PX*/
+
+@media screen and (max-width:400px) {
+    .nav {
+        z-index: 30;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .cajasflex {
+        min-width: 100px;
+        min-height: 206.8px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .product-card {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .BOX {
+        width: 100%;
+        height: 250px;
+        border: none;
+        display: flex;
+        flex-wrap: nowrap;
+        background-image: url('imaganes/banner.png'); ; /* Reemplaza con la ruta de tu imagen */
+        background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+        background-position: center; /* Centra la imagen */
+        background-repeat: no-repeat;
+    }
+}
+
+.copy {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+#ccopy {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bebidas {
+    width: 100%;
+    height: 500px;
+    background-color: #19191a;
+    margin-bottom: 0px;
+}
+
+.bebidastext {
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Playwrite VN', sans-serif;
+    font-size: 45px;
+    padding-top: 50px;
+    padding-left: 40px;
+    text-shadow: 0 0 3px #f50689;
+}
+
+.bebidasimg {
+    width: 100%;
+    height: 700px;
+}
+
+@media screen and (max-width:600px) {
+    .bebidasimg {
+        width: 100%;
+        height:300px;
+    }
+    .bebidastext {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .bebidasimg {
+        width: 100%;
+        height: 500px;
+    }
+    .bebidastext {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .bebidasimg {
+        width: 100%;
+        height: 270px;
+    }
+    .bebidastext {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .bebidasimg {
+        width: 100%;
+        height: 250px;
+    }
+    .bebidastext {
+        font-size: 20px;
+    }
+}
+
+.deliverybox {
+    width: 100%;
+    height: 500px;
+    background-color: #19191a;
+    margin-top: 10px;
+}
+
+.deliverytext {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.deliverytext2 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    text-decoration:underline;
+}
+
+.deliverytext3 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.deliverytext4 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.deliverytext5 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.deliverytext6 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}

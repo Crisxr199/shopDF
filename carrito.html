@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carrito.css">
+    <link rel="stylesheet" href="shop.css">
+    <title>Carrito de Compras</title>
+</head>
+<body>
+    <div class="caja1">
+        <h1 class="textcarrito">Carrito de Compras</h1>
+    </div>
+    <div class="pedidocaja">
+        <p class="pedido">DETALLES DEL PEDIDO</p>
+    </div>
+    <!-- Aquí se mostrarán los datos del formulario -->
+    <div id="CARRITO" class="pedidoform">
+        <!-- Los datos se mostrarán aquí -->
+    </div>
+
+    <!-- Sección donde se mostrarán los productos en el carrito -->
+    <div id="productos-en-CARRITO">
+        <ul class="list1" id="lista-CARRITO">
+            <!-- Los productos se agregarán aquí dinámicamente -->
+        </ul>
+    </div>
+
+    <!-- Total de los productos en el carrito -->
+    <div class="total" id="total">
+        Total: $0.00
+    </div>
+    <div id="pagar" class="pagar">
+        Pagar
+    </div>
+
+    <!-- Div con las formas de pago (inicialmente oculto) -->
+    <div id="formas-pago" class="formas-pago" style="display: none;">
+        <h3 class="h3">Elige tu forma de pago</h3>
+        <ul>
+            <li>
+                <p>Transferencia Bancaria</p>
+                <p>Banco: Banesco</p>
+                <p>Cuenta: Corriente</p>
+                <p>Nro-0134-0213-2821-3103-9138</p>
+                <p>FERNANDO GUEVARA</p>
+                <p>C.I.V-19.371.632</p>
+            </li>
+            <li class="li1">
+                <p>Pago movil</p>
+                <p>Banco: 0134 Banesco</p>
+                <p>Cedula: 19.371.632</p>
+                <p>Telefono: 0424-171-0526</p>
+            </li>
+            <li>
+                Pago en Divisas $ | Por WhatsApp
+            </li>
+        </ul>
+        <div class="confirmarbox">
+            <button class="confirmar">Confirmar Pago</button>
+        </div>
+    </div>
+
+    <!-- Botón para vaciar el carrito -->
+    <div class="borrarcaja">
+        <button class="borrar" id="vaciar-CARRITO" onclick="vaciarCARRITO()">Vaciar Carrito</button>
+    </div>
+
+    <div id="volvercaja">
+        <a class="volver" href="shopp.html">Volver a la tienda</a>
+    </div>   
+    
+    <script src="shop1.js"></script>
+    <script src="carrito.js"></script>
+</body>
+</html>
