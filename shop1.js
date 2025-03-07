@@ -112,3 +112,16 @@ bebidasBtn.addEventListener('click', function() {
     block: 'start'       // Alineación al inicio de la sección
   });
 });
+
+
+// ESTE CODIGO PERMITIRA QUE LA WEB SE CARGUE HASTA QUE EL DOM ESTE AL 100% LOAD
+
+window.addEventListener('load', function() {
+    // La página está completamente cargada.
+    // Aquí puedes agregar el código para mostrar la página.
+    document.body.style.display = 'block'; // O cualquier otro método para mostrar la página.
+  });
+  
+  // Oculta la página inicialmente
+  document.body.style.display = 'none';
+
